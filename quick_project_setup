@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo "🚀 PDF Outline Extractor - Complete Project Setup"
-echo "================================================="
+#"🚀 PDF Outline Extractor - Complete Project Setup"
+
 
 # Step 1: Create project directory
-echo "📁 Creating project directory..."
+# "📁 Creating project directory..."
 mkdir -p pdf-outline-extractor
 cd pdf-outline-extractor
 
 # Step 2: Create file structure
-echo "📝 Creating file structure..."
+# "📝 Creating file structure..."
 
 # Create main files
 touch README.md
@@ -23,7 +23,7 @@ touch input/.gitkeep
 touch output/.gitkeep
 
 # Step 3: Create .gitignore
-echo "🚫 Creating .gitignore..."
+# "🚫 Creating .gitignore..."
 cat > .gitignore << 'EOF'
 # Python
 __pycache__/
@@ -57,9 +57,9 @@ output/*.json
 EOF
 
 # Step 4: Display created structure
-echo ""
-echo "✅ Project structure created:"
-echo ""
+
+"✅ Project structure created:"
+
 tree . 2>/dev/null || find . -type f -o -type d | sed 's|[^/]*/|- |g'
 
 echo ""
