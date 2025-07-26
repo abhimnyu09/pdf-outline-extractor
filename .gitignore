@@ -1,1 +1,5 @@
-
+__pycache__/          # Python cache files
+*.pyc                 # Compiled Python files
+.DS_Store             # macOS system files
+input/*.pdf           # Test PDF files (optional)
+output/*.json         # Generated results (optional)
