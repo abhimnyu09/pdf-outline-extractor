@@ -212,7 +212,6 @@ docker build --platform linux/amd64 -t pdf-extractor:latest .
 ```bash
 # Prepare input directory with PDF files
 mkdir -p input output
-cp your-documents.pdf input/
 
 # Run the extractor (this matches the expected execution format)
 docker run --rm \
