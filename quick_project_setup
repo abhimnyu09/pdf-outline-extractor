@@ -18,7 +18,8 @@ touch requirements.txt
 touch extract_outline.py
 
 # Create directories with .gitkeep files
-mkdir -p input output
+mkdir -p input
+mkdir -p output
 touch input/.gitkeep
 touch output/.gitkeep
 
